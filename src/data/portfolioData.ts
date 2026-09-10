@@ -1,4 +1,8 @@
 import { Project, Service, ExperienceItem, StatItem } from '../types';
+import bajajPulsarImage from '../assets/images/regenerated_image_1789027689172.png';
+import dominarImage from '../assets/images/regenerated_image_1789028261629.jpg';
+import ktmImage from '../assets/images/regenerated_image_1789028257617.png';
+import jehangirImage from '../assets/images/regenerated_image_1789028567818.jpg';
 
 export const PERSONAL_INFO = {
   name: 'Jay Ladva',
@@ -142,7 +146,7 @@ export const INITIAL_PROJECTS: Project[] = [
     theme: 'dark',
     media: {
       type: 'image',
-      url: 'https://images.unsplash.com/photo-1558981403-c5f9899a28bc?q=80&w=1400&auto=format&fit=crop',
+      url: bajajPulsarImage,
       caption: 'High-performance street motorcycle aesthetic with dramatic low-key editorial lighting'
     }
   },
@@ -169,7 +173,7 @@ export const INITIAL_PROJECTS: Project[] = [
     theme: 'sand',
     media: {
       type: 'image',
-      url: 'https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?q=80&w=1400&auto=format&fit=crop',
+      url: dominarImage,
       caption: 'Adventure touring motorcycle in mountain landscapes representing pure exploration'
     }
   },
@@ -196,7 +200,7 @@ export const INITIAL_PROJECTS: Project[] = [
     theme: 'warm',
     media: {
       type: 'image',
-      url: 'https://images.unsplash.com/photo-1609630875171-b1321377ee65?q=80&w=1400&auto=format&fit=crop',
+      url: ktmImage,
       caption: 'Dynamic track-ready orange performance motorcycle capturing raw adrenaline'
     }
   },
@@ -223,7 +227,7 @@ export const INITIAL_PROJECTS: Project[] = [
     theme: 'dark',
     media: {
       type: 'image',
-      url: 'https://images.unsplash.com/photo-1544967082-d9d25d867d66?q=80&w=1400&auto=format&fit=crop',
+      url: jehangirImage,
       caption: 'Minimalist contemporary art gallery space with curated exhibition lighting'
     }
   },

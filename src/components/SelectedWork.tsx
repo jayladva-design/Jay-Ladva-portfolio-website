@@ -7,7 +7,7 @@ import { ProjectDetailModal } from './ProjectDetailModal';
 import { MediaCustomizerModal } from './MediaCustomizerModal';
 import { SlidersHorizontal, Sparkles, Filter } from 'lucide-react';
 
-const STORAGE_KEY = 'jay_ladva_portfolio_projects_v1';
+const STORAGE_KEY = 'jay_ladva_portfolio_projects_v5';
 
 export const SelectedWork: React.FC = () => {
   const [projects, setProjects] = useState<Project[]>(() => {
